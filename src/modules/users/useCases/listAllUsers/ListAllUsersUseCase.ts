@@ -9,7 +9,19 @@ class ListAllUsersUseCase {
   constructor(private usersRepository: IUsersRepository) {}
 
   execute({ user_id }: IRequest): User[] {
-    // Complete aqui
+    const user = this.usersRepository.findById(user_id);
+
+    if (!user) {
+      throw new Error("How did you get here if you don't exist?");
+    }
+
+    if (!user.admin) {
+      throw new Error(
+        "Area restricted. You don't have the authorization to execute this request."
+      );
+    }
+
+    return this.usersRepository.list();
   }
 }
 
