@@ -1,4 +1,4 @@
-# Desafio 01 - Introdução ao SOLID
+# Desafio 01 e 02 - Introdução ao SOLID e Documentando com Swagger
 
 <div align="center">
     <img width="900px" alt="Ignite" src="assets/capa_ignite.png" />
@@ -20,12 +20,19 @@ Visite à [Rockseat](https://rocketseat.com.br/) para saber mais sobre o curso.
 </p>
 
 <p align="center">
+  <a href="#introdução-ao-solid ">Desafio 01 - Introdução ao SOLID</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#documentando-com-swagger">Desafio 2 - Documentando com Swagger</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
+
+# Introdução ao SOLID
+
+<p align="center">
   <a href="#rocket-sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#keyboard-instalação-e-execução-do-projeto">Instalação e Execução do Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#template-da-aplicação">Template da aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Rotas-da-aplicação">Rotas da aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#especificação-dos-testes">Específicação dos testes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
 </p>
 
 ## :rocket: Sobre o desafio
@@ -295,6 +302,55 @@ Você pode olhar qual controller recebe o conteúdo de qual rota observando o ar
 - **Rota - [GET] /users/:user_id**
 - **Rota - [GET] /users**
 
+---
+
+<p>
+ <a href="#"><strong> Document header 🔝 </strong></a>
+</p>
+
+# Documentando com Swagger
+
+<p align="center">
+  <a href="#descrição">Descrição</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#preparando-ambiente-para-documentação">Preparando ambiente para documentação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#como-ficou-a-minha-documentação">Como ficou a minha documentação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
+
+# Descrição
+
+Nesse desafio, documentei as rotas do projeto com o Swagger.
+
+## Template da aplicação
+
+Nesse desafio você deve utilizar como template o seu código final desenvolvido em:
+
+[Desafio 01 - Introdução ao SOLID](https://www.notion.so/Desafio-01-Introdu-o-ao-SOLID-3b9be286fac0482ca3b275473ddd2d72)
+
+## Preparando ambiente para documentação
+
+Etapas a seguir:
+
+- Instalar a lib `swagger-ui-express`;
+- Criar um arquivo JSON para você escrever a documentação na especificação OpenAPI 3.0;
+- Instanciar na sua aplicação uma rota `api-docs` que vai servir a sua documentação.
+
+## O que foi documentado?
+
+- Informações gerais da API (nome, descrição, etc.);
+- Rotas;
+- Parâmetros;
+- Corpo da Requisição;
+- Respostas de sucesso;
+- Respostas de erro;
+- Exemplos.
+
+## Como ficou a minha documentação
+
+<div align="center">
+    <img width="900px" alt="Ignite" src="assets/Swagger-doc.png" />
+
+---
+
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/git/git-scm.com/blob/master/MIT-LICENSE.txt) para mais detalhes.
@@ -302,3 +358,7 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.c
 ---
 
 Created with 💜 by <a href="https://www.linkedin.com/in/eduardoqueiros/">Eduardo Queirós</a> :wave:
+
+<p>
+ <a href="#"><strong> Document header 🔝 </strong></a>
+</p>
